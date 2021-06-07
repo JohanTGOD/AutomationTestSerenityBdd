@@ -7,13 +7,11 @@ import net.serenitybdd.screenplay.Actor;
 import starter.navigation.NavigateTo;
 import starter.tasks.SelectTo;
 
-import static net.serenitybdd.screenplay.questions.Presence.of;
-
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.Matchers.is;
 import static starter.questions.HomePageQuestions.areTabMenusVisible;
 
-public class CheckFieldStepsDefinitions {
+public class CheckMenuTabsStepsDefinitions {
 
     @Given("{actor} is in the security home page")
     public void goToTheWebPage(Actor actor) {
@@ -28,7 +26,7 @@ public class CheckFieldStepsDefinitions {
     @Then("{actor} should see all menu options")
     public void checkByMenuOptions(Actor actor) {
         actor.should(
-                seeThat("presence of all menu options", areTabMenusVisible() , is(true))
+                seeThat("presence of all menu options", areTabMenusVisible(), is(true))
         );
     }
 

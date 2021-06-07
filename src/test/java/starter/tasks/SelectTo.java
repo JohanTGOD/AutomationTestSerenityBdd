@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
-import static starter.ui.SelectLocatorInHomePageCalled.ALL_MENU_OPTIONS_LABELS;
+import static starter.ui.SelectLocatorHomePageCalled.ALL_MENU_OPTIONS_LABELS;
 
 public class SelectTo {
     public static Performable optionMenu(String option) {
