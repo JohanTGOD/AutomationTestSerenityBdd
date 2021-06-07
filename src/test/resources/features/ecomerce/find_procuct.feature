@@ -1,4 +1,4 @@
-Feature: Searches test
+Feature: Search in Ecommerce by keyword test
 
   Scenario Outline: Find products with the same keyword
     Given Sergey is in "ecommerce" home page
@@ -6,4 +6,5 @@ Feature: Searches test
     Then he should see products that contains <Product_Name>
     Examples:
       | Product_Name |
-      | "Blouse"       |
+      | "Blouse"     |
+      | "Printed"    |

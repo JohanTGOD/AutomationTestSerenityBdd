@@ -2,7 +2,7 @@ package starter.ui.zero;
 
 import org.openqa.selenium.By;
 
-public class SelectLocatorFeedbackPage {
+public class LocatorFeedbackPage {
 
     public static final By NAME_INPUT = By.id("name");
     public static final By EMAIL_INPUT = By.id("email");

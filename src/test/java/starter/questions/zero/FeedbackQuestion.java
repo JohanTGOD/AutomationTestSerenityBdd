@@ -3,23 +3,23 @@ package starter.questions.zero;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Enabled;
 import net.serenitybdd.screenplay.questions.Presence;
-import starter.ui.zero.SelectLocatorFeedbackPage;
+import starter.ui.zero.LocatorFeedbackPage;
 
 public class FeedbackQuestion {
 
     public static Question<Boolean> isNameFieldVisible() {
-        return Enabled.of(SelectLocatorFeedbackPage.NAME_INPUT).asABoolean();
+        return Enabled.of(LocatorFeedbackPage.NAME_INPUT).asABoolean();
     }
 
     public static Question<Boolean> isEmailFieldVisible() {
-        return Presence.of(SelectLocatorFeedbackPage.EMAIL_INPUT).asABoolean();
+        return Presence.of(LocatorFeedbackPage.EMAIL_INPUT).asABoolean();
     }
 
     public static Question<Boolean> isSubjectFieldVisible() {
-        return Presence.of(SelectLocatorFeedbackPage.SUBJECT_INPUT).asABoolean();
+        return Presence.of(LocatorFeedbackPage.SUBJECT_INPUT).asABoolean();
     }
 
     public static Question<Boolean> isCommentFieldVisible() {
-        return Presence.of(SelectLocatorFeedbackPage.COMMENT_INPUT).asABoolean();
+        return Presence.of(LocatorFeedbackPage.COMMENT_INPUT).asABoolean();
     }
 }
