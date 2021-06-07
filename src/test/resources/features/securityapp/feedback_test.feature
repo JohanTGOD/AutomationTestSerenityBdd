@@ -1,7 +1,7 @@
 Feature: Feedback test
 
   Background:Check the form of Feedback page
-    Given Sergey is in the security home page
+    Given Sergey is in the "security" home page
     When Sergey selects "FEEDBACK" page
     Then he should see all inputs are enable
 
