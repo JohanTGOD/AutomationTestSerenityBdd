@@ -7,10 +7,10 @@ import org.openqa.selenium.Keys;
 
 public class LookForInformation {
     public static Performable about(String searchTerm) {
-        return Task.where("{0} searches for '" + searchTerm + "'",
-                Enter.theValue(searchTerm)
-                        .into(SearchForm.SEARCH_FIELD)
-                        .thenHit(Keys.ENTER)
+        return Task.where("{0} searches for '" + searchTerm + "'"
+//                Enter.theValue(searchTerm)
+//                        .into(SearchForm.SEARCH_FIELD)
+//                        .thenHit(Keys.ENTER)
         );
     }
 }
