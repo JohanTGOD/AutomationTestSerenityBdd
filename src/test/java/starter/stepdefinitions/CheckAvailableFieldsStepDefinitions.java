@@ -9,7 +9,7 @@ import starter.tasks.SelectTo;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.Matchers.is;
 
-public class CheckInputs {
+public class CheckAvailableFieldsStepDefinitions {
 
     @When("{actor} selects {string} page")
     public void selectEachMenuTabs(Actor actor, String option) {
