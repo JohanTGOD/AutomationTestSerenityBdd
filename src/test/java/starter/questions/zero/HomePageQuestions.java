@@ -1,8 +1,8 @@
-package starter.questions;
+package starter.questions.zero;
 
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Presence;
-import starter.ui.SelectLocatorHomePageCalled;
+import starter.ui.zero.SelectLocatorHomePageCalled;
 
 public class HomePageQuestions {
 

@@ -1,10 +1,10 @@
-package starter.stepdefinitions;
+package starter.stepdefinitions.zero;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.Actor;
-import starter.questions.FeedbackQuestion;
-import starter.tasks.SelectTo;
+import starter.questions.zero.FeedbackQuestion;
+import starter.tasks.zero.SelectTo;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.Matchers.is;

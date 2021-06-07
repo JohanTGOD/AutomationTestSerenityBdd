@@ -1,4 +1,4 @@
-package starter.questions;
+package starter.questions.zero;
 
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;

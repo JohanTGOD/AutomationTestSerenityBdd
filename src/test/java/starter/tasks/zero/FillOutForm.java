@@ -1,10 +1,10 @@
-package starter.tasks;
+package starter.tasks.zero;
 
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
-import starter.ui.SelectLocatorFeedbackPage;
+import starter.ui.zero.SelectLocatorFeedbackPage;
 
 public class FillOutForm {
     public static Performable withData(String user, String email, String subject, String comment) {

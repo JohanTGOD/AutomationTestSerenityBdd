@@ -1,9 +1,9 @@
-package starter.questions;
+package starter.questions.zero;
 
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Enabled;
 import net.serenitybdd.screenplay.questions.Presence;
-import starter.ui.SelectLocatorFeedbackPage;
+import starter.ui.zero.SelectLocatorFeedbackPage;
 
 public class FeedbackQuestion {
 

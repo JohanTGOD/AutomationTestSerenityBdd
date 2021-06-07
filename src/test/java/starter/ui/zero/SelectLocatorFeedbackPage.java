@@ -1,4 +1,4 @@
-package starter.ui;
+package starter.ui.zero;
 
 import org.openqa.selenium.By;
 
