@@ -30,7 +30,7 @@ public class FillOutFormStepDefinitions {
     @Then("{actor} should stay in the same page")
     public void checkFormPage(Actor actor) {
         actor.should(
-                seeThat("visibility username field", FeedbackQuestion.isNameFieldVisible(), is(true))
+                seeThat("visibility username field", FeedbackQuestion.isNameFieldEnable(), is(true))
         );
     }
 }

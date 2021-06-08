@@ -1,3 +1,4 @@
+@EcommerceTest
 Feature: Search in Ecommerce by keyword test
 
   Scenario Outline: Find products with the same keyword

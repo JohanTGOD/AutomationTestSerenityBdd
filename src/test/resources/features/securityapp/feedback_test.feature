@@ -1,3 +1,4 @@
+@ZeroTest
 Feature: Feedback test
 
   Background:Check the form of Feedback page
