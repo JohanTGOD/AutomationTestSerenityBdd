@@ -9,5 +9,6 @@ public class LocatorEcommerceFormContactUsPage {
     public static final By ORDER_INPUT = By.id("id_order");
     public static final By MESSAGE_INPUT = By.id("message");
     public static final By SEND_BUTTON = By.id("submitMessage");
+    public static final By SUCCESS_MESSAGE_LABEL = By.className("alert-success");
 
 }
