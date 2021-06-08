@@ -1,5 +1,5 @@
 @ZeroTest
-Feature: Feedback test
+Feature: In Zero page check all related with Feedback form test
 
   Background:Check the form of Feedback page
     Given Sergey is in the "security" home page
