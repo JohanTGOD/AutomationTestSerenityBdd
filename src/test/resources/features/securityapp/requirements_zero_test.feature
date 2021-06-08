@@ -1,5 +1,6 @@
 @ZeroPreconditions
-Feature: Check preconditions test
+@SmokeTest
+Feature: Check preconditions of Zero Bank test
 
   @Bug
   Scenario Outline: Check that no matter which menu the actor selected, he always will see all the menu options

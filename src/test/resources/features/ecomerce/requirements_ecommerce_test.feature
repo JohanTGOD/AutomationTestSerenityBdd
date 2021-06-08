@@ -1,5 +1,5 @@
 @EcommercePreconditions
-Feature: Check preconditions test
+Feature: Check Ecommerce preconditions test
 
   Scenario: Check that all fields in Contact us form before using it
     Given Sergey is in "ecommerce" home page

@@ -1,5 +1,5 @@
 @EcommerceTest
-Feature: Fill out test
+Feature: Fill out form in Ecommerce Contact us form test
 
   Background: : Check that all fields in Contact us form before using it
     Given Sergey is in "ecommerce" home page
