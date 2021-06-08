@@ -1,4 +1,4 @@
-@Preconditions
+@ZeroPreconditions
 Feature: Check preconditions test
 
   @Bug
@@ -16,4 +16,3 @@ Feature: Check preconditions test
     Given Sergey is in the "security" home page
     When Sergey selects "FEEDBACK" page
     Then he should see all inputs are enable
-#

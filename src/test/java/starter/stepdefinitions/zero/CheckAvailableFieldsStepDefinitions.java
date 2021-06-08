@@ -19,10 +19,10 @@ public class CheckAvailableFieldsStepDefinitions {
     @Then("{actor} should see all inputs are enable")
     public void checkByMenuOptions(Actor actor) {
         actor.should(
-                seeThat("name input is visible an enable", FeedbackQuestion.isNameFieldVisible(), is(true)),
-                seeThat("email input is visible an enable", FeedbackQuestion.isEmailFieldVisible(), is(true)),
-                seeThat("subject input is visible an enable", FeedbackQuestion.isSubjectFieldVisible(), is(true)),
-                seeThat("comment text are is visible an enable", FeedbackQuestion.isCommentFieldVisible(), is(true))
+                seeThat("name input is visible an enable", FeedbackQuestion.isNameFieldEnable(), is(true)),
+                seeThat("email input is visible an enable", FeedbackQuestion.isEmailFieldEnable(), is(true)),
+                seeThat("subject input is visible an enable", FeedbackQuestion.isSubjectFieldEnable(), is(true)),
+                seeThat("comment text are is visible an enable", FeedbackQuestion.isCommentFieldEnable(), is(true))
                 );
     }
 }
